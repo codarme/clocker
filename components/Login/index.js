@@ -14,7 +14,7 @@ import {
 } from '@chakra-ui/react'
 
 import { Logo } from '../Logo'
-import { firebaseClient, persistenceMode } from './../../config/firebase'
+import { firebaseClient, persistenceMode } from './../../config/firebase/client'
 
 const validationSchema = yup.object().shape({
     email: yup.string().email('E-mail inválido').required('Preenchimento obrigatório'),
