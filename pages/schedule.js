@@ -50,7 +50,7 @@ export default function Schedule() {
 
             <SimpleGrid p={4} columns={2} spacing={4}>
                 {loading && <Spinner tickness="4px" speed="0.65s" emptyColor="gray.200" color="blue.500" size="xl" />}
-                {data?.map(time => <TimeBlock key={time} time={time} />)}
+                {data?.map(time => <TimeBlock key={time} time={time} date={when} />)}
             </SimpleGrid>
         </Container>
     )
