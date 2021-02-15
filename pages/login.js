@@ -50,7 +50,7 @@ export default function Login() {
 
     return (
         <Container p={4} centerContent>
-            <Logo />
+            <Logo size={200} />
             <Box p={4} mt={8}>
                 <Text>Crie sua agenda compartilhada</Text>
             </Box>
