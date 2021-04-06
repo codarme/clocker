@@ -7,7 +7,11 @@ Entre os dias 5 e 9 de abril, vamos desenvolver uma aplicação completa: front,
 [Cadastre-se](http://codar.me/webinario) para não perder nenhuma aula!
 
 Ficou com dúvidas ou teve algum problema? Manda lá no [canal da semana no discord](https://discord.gg/Pdr3kVHF) pra galera te ajudar!
-## Rodando o projeto
+## O Projeto
+
+Durante estas aulas, desenvolveremos uma aplicação de agendamento de horários chamada Clocker, utilizando React com NextJS e Firebase para autenticação e banco de dados.
+
+**Para rodar o projeto:**
 
 ```bash
 npm run dev
